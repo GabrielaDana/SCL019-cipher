@@ -42,7 +42,18 @@ function sumaClick() {
 //         console.log(addClick)
 //     }
 // }
-
+let offset = document.getElementById("offset");
+let showOffset = document.getElementById("offset1");
+showOffset.innerHTML = offset.value;
+offset.oninput = function(){
+showOffset.innerHTML = this.value;
+}
+let hechizoTitle = document.getElementById("hechizoTitle");
+let hechizo = document.getElementById("hechizo");
+hechizo.innerHTML = hechizoTitle.value;
+hechizoTitle.oninput = function(){
+  hechizo.innerHTML = this.value;
+}
 //traer el elemento y luego escuchar el click y ejecuta funcion pageTwo
 document.getElementById("key").addEventListener("click",pageTwo)
 function pageTwo() {
@@ -65,7 +76,7 @@ document.getElementById("one").style.display = "block";
 document.getElementById("two").style.display = "none";
 document.getElementById("three").style.display = "none";
 }
-document.getElementById("inicio2").addEventListener("click",pageOne)
+document.getElementById("inicio2").addEventListener("click",pageTwo)
 
 
 document.getElementById("newPage").addEventListener("click", newPage);

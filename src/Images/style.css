@@ -2,7 +2,6 @@
 body{
 background-image: url("Images/fondo.jpg");
 background-size: 100%;
-/* cursor: url("Images/cursor (3).cur"), auto; */
 }
 
 .page{
@@ -16,7 +15,6 @@ background-size: 100%;
     background-position-y: center;
     width: 637px;
     height: 879px;
-    /* padding: 73px 401px; */
     margin-left: auto;
     margin-right: auto;
     border-radius: 29px;
@@ -26,25 +24,21 @@ background-size: 100%;
 .text{
     font-family: "Bad Script";
     color: #3F3446;
-    /* cursor: url("Images/cursor (3).cur"), auto;  */
     cursor: default;
 }
 button{
     cursor: url("Images/cursor (1).cur"), auto;
-    transition: 1s;
-    -webkit-transition: 2s;
-    -moz-transition: 2s;
-    -o-transition: 2s;
-    -ms-transition: 2s;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    -ms-transition: .5s;
 }
 button:hover{
     /* imagen opción 1 */
    /* background-image: url("https://img1.picmix.com/output/stamp/normal/7/1/1/2/1372117_ec7bb.gif"); */
    /* imagen opción 2  */
     background-image: url("https://img1.picmix.com/output/stamp/thumb/5/1/2/7/1827215_ecb8d.gif");
-    /* background-size: contain; */
-    /* imgaen opción 3 */
-    /* background-image: url(""); */
 }
 #title{
     font-size: 75px;
@@ -176,7 +170,6 @@ button:hover{
     right: 0;
     top: 705px;
 }
-
 #offset{
     width: 500px;
     height: 15px;
