@@ -89,11 +89,16 @@ button:hover{
     right: 0;
     top: 180px;
     cursor: text;
+    animation: fade-in;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
 }
 #hechizo{
     font-size: 33px;
     position: absolute;
-    margin-left: 12%;
+    margin-left: 10%;
     top: 380px;
     cursor: url("Images/cursor (1).cur"), auto;
 }
@@ -217,7 +222,7 @@ button:hover{
     margin-right: auto;
     left: 0;
     right: 0;
-    top: 830px;
+    top: 607px;
     opacity: 0.7;
     -webkit-transition: .2s;
     -moz-transition: .2s;
