@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+body{
+background-image: url("Images/fondo.jpg");
+background-size: 100%;
+/* cursor: url("Images/cursor (3).cur"), auto; */
+}
+
+.page{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.rectangle{
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    width: 637px;
+    height: 879px;
+    /* padding: 73px 401px; */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 29px;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.42);
+}
+/* Formato de texto */
+.text{
+    font-family: "Bad Script";
+    color: #3F3446;
+    cursor: default;
+}
+button{
+    cursor: url("Images/cursor (1).cur"), auto;
+    transition: 1s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -o-transition: 2s;
+    -ms-transition: 2s;
+}
+button:hover{
+    /* imagen opción 1 */
+   /* background-image: url("https://img1.picmix.com/output/stamp/normal/7/1/1/2/1372117_ec7bb.gif"); */
+   /* imagen opción 2  */
+    background-image: url("https://img1.picmix.com/output/stamp/thumb/5/1/2/7/1827215_ecb8d.gif");
+    /* background-size: contain; */
+    /* imgaen opción 3 */
+    /* background-image: url(""); */
+}
+#title{
+    font-size: 75px;
+    text-align: center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 280px;
+}
+#subtitle{
+    font-size: 33px;
+    text-align: center;
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 430px;
+}
+#indexTitle{
+    font-size: 60px;
+    text-align: center;
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 180px;
+}
+#hechizoTitle{
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 60px;
+    text-align: center;
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 180px;
+    cursor: text;
+    animation: fade-in;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
+}
+#hechizo{
+    font-size: 33px;
+    position: absolute;
+    margin-left: 10%;
+    top: 380px;
+    cursor: url("Images/cursor (1).cur"), auto;
+}
+/* Contiene la imagen de cada id por pag */
+#frontPage{
+    background-image: url(Images/portada.png);
+}
+#index{
+    background-image: url(Images/indice.png);    
+}
+#page1{
+    background-image: url(Images/pagina\ 1.png);
+}
+#key{
+    width: 110px;
+    height: 70px;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    /* background-image: url(https://img1.picmix.com/output/stamp/thumb/5/1/2/7/1827215_ecb8d.gif); */
+    background-position: center ;
+    /* background-size: contain; */
+    background-color: transparent;
+    border-color: transparent;
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 548px;
+}
+#inicio1{
+    width: 140px;
+    height: 70px;
+    border-radius: 50%;
+    /* background-image: url(https://img1.picmix.com/output/stamp/thumb/5/1/2/7/1827215_ecb8d.gif); */
+    background-position: center ;
+    /* background-size: contain; */
+    background-color: transparent;
+    border-color: transparent;
+    position:absolute;
+    margin-left: 152px;
+    top: 829px;
+}
+#inicio2{
+    width: 105px;
+    height: 50px;
+    border-radius: 50%;
+    /* background-image: url(https://img1.picmix.com/output/stamp/thumb/5/1/2/7/1827215_ecb8d.gif); */
+    background-position: center ;
+    /* background-size: contain; */
+    background-color: transparent;
+    border-color: transparent;
+    position:absolute;
+    margin-left: 149px;
+    top: 854px;
+}
+#newPage1{
+    width: 105px;
+    height: 50px;
+    border-radius: 50%;
+    /* background-image: url(https://img1.picmix.com/output/stamp/thumb/5/1/2/7/1827215_ecb8d.gif); */
+    background-position: center ;
+    /* background-size: contain; */
+    background-color: transparent;
+    border-color: transparent;
+    position:absolute;
+    margin-left: 389px;
+    top: 854px;
+}
+#cifrar{
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    /* background-image: url(https://img1.picmix.com/output/stamp/normal/7/1/1/2/1372117_ec7bb.gif), mouseover; */
+    /* background-image: url(https://img1.picmix.com/output/stamp/thumb/5/1/2/7/1827215_ecb8d.gif); */
+    background-position: center ;
+    /* background-size: contain; */
+    background-color: transparent;
+    border-color: transparent;
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 705px;
+}
+
+#offset{
+    width: 500px;
+    height: 15px;
+    border-radius: 15px;
+    appearance: none;
+    background: #c6bfd2;
+    outline: none;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 640px;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -o-transition: .2s;
+    -ms-transition: .2s;
+    transition: opacity .2s;
+    animation: fade-in;
+    -webkit-animation: fadeIn linear 5s;
+    -moz-animation: fadeIn linear 5s;
+    -o-animation: fadeIn linear 5s;
+    -ms-animation: fadeIn linear 5s;
+}
+#offset:hover{
+    opacity: 1;
+
+}
+#offset1{
+    text-align: center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 607px;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -o-transition: .2s;
+    -ms-transition: .2s;
+    transition: opacity .2s;
+    animation: fade-in;
+    -webkit-animation: fadeIn linear 5s;
+    -moz-animation: fadeIn linear 5s;
+    -o-animation: fadeIn linear 5s;
+    -ms-animation: fadeIn linear 5s;
+}
+#newPage{
+    width: 140px;
+    height: 70px;
+    border-radius: 50%;
+    /* background-image: url(https://img1.picmix.com/output/stamp/thumb/5/1/2/7/1827215_ecb8d.gif); */
+    background-position: center ;
+    background-size: contain;
+    background-color: transparent;
+    border-color: transparent;
+    position:absolute;
+    margin-left: 367px;
+    top: 829px;
+}
+#cipherText{
+    width: 490px;
+    height: 295px;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 320px;
+    padding: 10px;
+    /* box-sizing: border-box; */
+    background: transparent;
+    border-color:#c6bfd2;
+    resize: none;
+    overflow: auto;
+    cursor: text;
+    animation: fade-in;
+  -webkit-animation: fadeIn linear 4s;
+  -moz-animation: fadeIn linear 4s;
+  -o-animation: fadeIn linear 4s;
+  -ms-animation: fadeIn linear 4s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+#one {
+    display: block;
+}
+#two{
+    display: none;
+}
+#three{
+    display: none;
+}
