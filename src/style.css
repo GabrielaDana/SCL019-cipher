@@ -90,10 +90,10 @@ button:hover{
     top: 180px;
     cursor: text;
     animation: fade-in;
-    -webkit-animation: fadeIn linear 3s;
-    -moz-animation: fadeIn linear 3s;
-    -o-animation: fadeIn linear 3s;
-    -ms-animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3.8s;
+    -moz-animation: fadeIn linear 3.8s;
+    -o-animation: fadeIn linear 3.8s;
+    -ms-animation: fadeIn linear 3.8s;
 }
 #hechizo{
     font-size: 33px;
@@ -230,10 +230,10 @@ button:hover{
     -ms-transition: .2s;
     transition: opacity .2s;
     animation: fade-in;
-    -webkit-animation: fadeIn linear 5s;
-    -moz-animation: fadeIn linear 5s;
-    -o-animation: fadeIn linear 5s;
-    -ms-animation: fadeIn linear 5s;
+    -webkit-animation: fadeIn linear 4.5s;
+    -moz-animation: fadeIn linear 4.5s;
+    -o-animation: fadeIn linear 4.5s;
+    -ms-animation: fadeIn linear 4.5s;
 }
 #newPage{
     width: 140px;
