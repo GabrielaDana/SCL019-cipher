@@ -13,7 +13,7 @@ El diseño donde se implementa el cifrado se pensó como un solo cuadro de texto
 
 Prototipo a mano
   <details><summary>Prototipo 1</summary><p>
-[![Primer prototipo](raw.githubusercontent.com/GabrielaDana/SCL019-cipher/main/prototipo.jpg)]
+[![Primer prototipo](prototipo.jpg)]
 </p></details>
 
 Prototipo en figma
