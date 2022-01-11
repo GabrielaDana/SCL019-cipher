@@ -30,7 +30,7 @@ Se comienzan a trabajar las páginas y su estructura
 
 Se agregan imágenes acorde a la temática para el fondo de cada página o portada y estructura, sin el texto, ya que será agregado en html acorde a las funciones que desempeñan (enlaces, editables, etc).
 
-Los botones fueron pensada para ser transparentes, agregando funcionalidad a la zona, utilizando el ícono que incluye la imagen de la página.
+Los botones fueron pensados para ser transparentes, agregando funcionalidad a la zona, utilizando el ícono que incluye la imagen de la página.
 
 
 <img src="final1.png"></img>
