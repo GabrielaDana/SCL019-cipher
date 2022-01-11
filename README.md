@@ -1,5 +1,5 @@
-# El libro secreto de la bruja
-## Grimorio: proyecto de cifrado cesar 
+# Grimorio: proyecto de cifrado cesar 
+## El libro secreto de la bruja
 
 ### Grimorio como solución
 Un grimorio es un libro utilizado por brujas y hechiceros para guardar sus encantamientos, brujerías y recetas mágicas. Muchas veces estos libros están protegidos por mágia, para que su contenido no sea visto por cualquier ser mortal o mágico y que los secretos que se esconden dentro no puedan ser facilmente revelados. Es por eso que se eligió esta temática para aplicar el cifrado cesar y así ocultar el contenido de las páginas del libro, de manera que sólo quien conozca el hechizo pueda revelar lo que se oculta en ellas.
@@ -13,12 +13,12 @@ El diseño donde se implementa el cifrado se pensó como un solo cuadro de texto
 
 Prototipo a mano
   <details><summary>Prototipo 1</summary><p>
-![Primer prototipo](prototipo.jpg)
+![Primer prototipo]<img src="prototipo.jpg"></img>
 </p></details>
 
 Prototipo en figma
 
   <details><summary>Prototipo 1</summary><p>
-![primer prototipo figma](prototipo2.jpg) 
+![primer prototipo figma]<img src="prototipo2"></img>
 </p></details>
 
