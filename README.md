@@ -12,37 +12,39 @@ El diseño donde se implementa el cifrado se pensó como un solo cuadro de texto
 ### Evolución del diseño
 
 * Prototipo a mano
--Tomando en cuenta funcionalidad
 
-  <details><summary></summary><p>
+Tomando en cuenta funcionalidad
+
 <img src="prototipo.jpg"></img>
-</p></details>
 
 * Primer prototipo en figma
--Se comienzan a trabajar las páginas y su estructura
 
-  <details><summary></summary><p>
+Se comienzan a trabajar las páginas y su estructura
+
+
 <img src="prototipo2.png"></img>
 <img src="prototipo3.png"></img>
 <img src="prototipo4.png"></img>
-</p></details>
 
 * Correcciones de prototipo en figma
--Se agregan imágenes acorde a la temática para el fondo de cada página o portada y estructura, sin el texto, ya que será agregado en html acorde a las funciones que desempeñan (enlaces, editables, etc).
--Los botones fueron pensada para ser transparentes, agregando funcionalidad a la zona, utilizando el ícono que incluye la imagen de la página.
 
-  <details><summary></summary><p>
+Se agregan imágenes acorde a la temática para el fondo de cada página o portada y estructura, sin el texto, ya que será agregado en html acorde a las funciones que desempeñan (enlaces, editables, etc).
+
+Los botones fueron pensada para ser transparentes, agregando funcionalidad a la zona, utilizando el ícono que incluye la imagen de la página.
+
+
 <img src="final1.png"></img>
 <img src="final2.png"></img>
 <img src="final3.png"></img>
-</p></details>
+
 
 * Idea para instrucciones
--Imagen para agregar instrucciones en un futuro de ser necesarias
 
-  <details><summary></summary><p>
+Imagen para agregar instrucciones en un futuro de ser necesarias
+
+
 <img src="instrucciones.png"></img>
-</p></details>
+
 
 ### Visita el grimorio aquí
 
