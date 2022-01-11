@@ -19,6 +19,6 @@ Prototipo a mano
 Prototipo en figma
 
   <details><summary>Prototipo 1</summary><p>
-[![primer prototipo figma](prototipo2.jpg)]
+[![primer prototipo figma](prototipo2.jpg)] 
 </p></details>
 
