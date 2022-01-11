@@ -46,13 +46,13 @@ let offset = document.getElementById("offset");
 let showOffset = document.getElementById("offset1");
 showOffset.innerHTML = offset.value;
 offset.oninput = function(){
-showOffset.innerHTML = this.value;
+showOffset.innerHTML = offset.value;
 }
 let hechizoTitle = document.getElementById("hechizoTitle");
 let hechizo = document.getElementById("hechizo");
 hechizo.innerHTML = hechizoTitle.value;
 hechizoTitle.oninput = function(){
-  hechizo.innerHTML = this.value;
+  hechizo.innerHTML = hechizoTitle.value;
 }
 //traer el elemento y luego escuchar el click y ejecuta funcion pageTwo
 document.getElementById("key").addEventListener("click",pageTwo)
