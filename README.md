@@ -48,4 +48,4 @@ Imagen para agregar instrucciones en un futuro de ser necesarias
 
 ### Visita el grimorio aquí
 
-https://gabrieladana.github.io/SCL019-cipher/
+[Grimorio: el libro secreto de la bruja](https://gabrieladana.github.io/SCL019-cipher/)
